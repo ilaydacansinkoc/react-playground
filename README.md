@@ -1,19 +1,22 @@
 Array methods used in this project.
 
+😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵
+
 ### `Array.prototype.some`
    used to check whether at least one element of an array satisfies a given condition or not.
    
-**``usage``** : Array.some(callback, [, thisArg])
+🔴 **``usage``** : Array.some(callback, [, thisArg])
 
-**``callback``** takes 3 parameters.
+🔴 **``callback``** takes 3 parameters.
 
 currentValue, index(optional), array(optional)
     
-**``example usage``** : arr.some(each => each.key === 'value here')
+🔴 **``example usage``** : arr.some(each => each.key === 'value here')
 returns true or false as like includes method.
 
 ------------
 ### `Array.prototype.every`
+
 checks whether every element of array satisfies a given condition or not.
 this method returns a boolean value.
 usage is just like the **``some``** method above.
@@ -53,7 +56,7 @@ you can use Array.prototype's **``some``** method to achieve this.
 ### `Array.prototype.isArray()`
 checks whether the given parameter is array or not.
 
- -  **``usage``** : Array.isArray(obj)
+🔴 **``usage``** : Array.isArray(obj)
 
 ------------
 
@@ -63,13 +66,13 @@ Map is a collection of keyed data items, just like an Object.
 
 But the main difference is that Map allows keys of any type.
 
-   - **``new Map()``** creates the Map.
+   🔴 **``new Map()``** creates the Map.
 
-   - **``map.set(key,value)``** stores value by the key.
+   🔴 **``map.set(key,value)``** stores value by the key.
 
-   - **``map.get(key)``** returns the value with the specified key, undefined if key not exists.
-
-
+   🔴 **``map.get(key)``** returns the value with the specified key, undefined if key not exists.
 
 
+
+😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵💫😵
 
