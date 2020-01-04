@@ -1,0 +1,17 @@
+.obj_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.obj{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100px;
+  height: 100px;
+}
+.xsmall_obj_wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 200px;
+}
