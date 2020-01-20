@@ -1,4 +1,5 @@
 import * as React from 'react';
+import FunctionalFocus from './FunctionalFocus';
 
 class Focus extends React.PureComponent {
   firstName: HTMLInputElement | null = null;
@@ -34,9 +35,18 @@ class Focus extends React.PureComponent {
     }
   }
 
+  componentDidMount() {
+    if (this.firstName) {
+      this.firstName.focus();
+    }
+  }
+
   render() {
     return (
       <>
+        <div>
+          <FunctionalFocus />
+        </div>
         <div>
           <span> First Name: </span>
           <input
